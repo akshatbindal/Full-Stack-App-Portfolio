@@ -1,0 +1,41 @@
+/* src/components/Certifications.css */
+
+.certifications-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.certifications-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333333;
+}
+
+.certifications-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.certifications-table th, .certifications-table td {
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.certifications-table th {
+    background-color: #ff5722;
+    color: white;
+}
+
+.certifications-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.certifications-table tbody tr:hover {
+    background-color: #dddddd;
+    transition: background-color 0.3s ease;
+}

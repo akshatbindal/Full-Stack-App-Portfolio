@@ -1,0 +1,41 @@
+/* src/components/Projects.css */
+
+.projects-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333333;
+}
+
+.projects-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.projects-table th, .projects-table td {
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.projects-table th {
+    background-color: #009688;
+    color: white;
+}
+
+.projects-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.projects-table tbody tr:hover {
+    background-color: #dddddd;
+    transition: background-color 0.3s ease;
+}
